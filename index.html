@@ -1,0 +1,463 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook Clone</title>
+    <link rel="stylesheet" href="css/font5/all.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo-section">
+        <div class="header__logo-icon">
+          <i class="fab fa-facebook"></i>
+        </div>
+        <div class="header__logo-search">
+          <i class="fas fa-search"></i>
+          <input type="text" />
+        </div>
+        <div class="header__mobile-button">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+      <div class="header__menu-tabs">
+        <div class="header__menu-tab header__menu-tab--active">
+          <i class="fas fa-home"></i>
+        </div>
+        <div class="header__menu-tab">
+          <i class="fas fa-flag">
+            <div class="header__notification-bubble">3</div>
+          </i>
+        </div>
+        <div class="header__menu-tab">
+          <i class="fas fa-tv">
+            <div class="header__notification-bubble">9</div>
+          </i>
+        </div>
+        <div class="header__menu-tab">
+          <i class="fas fa-store"> </i>
+        </div>
+        <div class="header__menu-tab">
+          <i class="fas fa-users"> </i>
+        </div>
+      </div>
+      <div class="header__account">
+        <div class="header__actions">
+          <img
+            src="https://pbs.twimg.com/profile_images/1186829957378404352/FopuISp-_400x400.jpg"
+            alt=""
+            class="header__user-img"
+          />
+          <span class="header__user-name">T. Nicole</span>
+          <a href="#" class="header__circle-link">
+            <i class="header__link-icon fas fa-plus"></i>
+          </a>
+          <a href="#" class="header__circle-link">
+            <i class="header__link-icon fab fa-facebook-messenger">
+              <div class="header__notification-bubble">10</div>
+            </i>
+          </a>
+          <a href="#" class="header__circle-link">
+            <i class="header__link-icon fas fa-bell">
+              <div class="header__notification-bubble">19</div>
+            </i>
+          </a>
+          <a href="#" class="header__circle-link">
+            <i class="header__link-icon fas fa-sort-down"></i>
+          </a>
+        </div>
+      </div>
+    </header>
+    <section class="content-area content-area--feed">
+      <section class="sidenav">
+        <div class="sidenav__item">
+          <img
+            class="sidenav__item-img"
+            src="https://pbs.twimg.com/profile_images/1186829957378404352/FopuISp-_400x400.jpg"
+            alt=""
+          />
+          <span class="sidenav__item-title"> T. Nicole </span>
+        </div>
+        <div class="sidenav__item">
+          <div class="sidenav__item-icon">
+            <i class="fas fa-user-friends"></i>
+          </div>
+          <span class="sidenav__item-title"> Friends</span>
+        </div>
+        <div class="sidenav__item">
+          <div class="sidenav__item-icon">
+            <i class="fas fa-flag"></i>
+          </div>
+          <span class="sidenav__item-title">
+            Pages
+            <span class="sidenav__item-notification">
+              <div class="sidenav__item-notification-circle"></div>
+              9+ new
+            </span>
+          </span>
+        </div>
+        <div class="sidenav__item">
+          <div class="sidenav__item-icon side__item-icon--circle-white">
+            <i class="fas fa-users"></i>
+          </div>
+          <span class="sidenav__item-title">
+            Groups
+            <span class="sidenav__item-notification">
+              <div class="sidenav__item-notification-circle"></div>
+              3+ new
+            </span>
+          </span>
+        </div>
+        <div class="sidenav__item">
+          <div class="sidenav__item-icon">
+            <i class="fas fa-store"></i>
+          </div>
+          <span class="sidenav__item-title"> Marketplace</span>
+        </div>
+        <div class="sidenav__item">
+          <div class="sidenav__item-icon sidenav__item-icon--circle">
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <span class="sidenav__item-title"> See More</span>
+        </div>
+        <div class="sidenav__line"></div>
+
+        <span class="sidenav__heading-title"> Your Shortcuts </span>
+        <!-- ********** -->
+        <div class="sidenav__item">
+          <div class="sidenav__item-icon sidenav__item-icon--circle-white">
+            <i class="fas fa-user-friends"></i>
+          </div>
+          <span class="sidenav__item-title"> Noir Hair</span>
+        </div>
+
+        <div class="sidenav__item">
+          <div class="sidenav__item-icon sidenav__item-icon--circle-white">
+            <i class="fas fa-user-friends"></i>
+          </div>
+          <span class="sidenav__item-title"> Black in AZ</span>
+        </div>
+
+        <div class="sidenav__item">
+          <img class="sidenav__item-img" src="imgs/victory.png" alt="" />
+          <span class="sidenav__item-title"> Victory ATL </span>
+        </div>
+
+        <div class="sidenav__item">
+          <img class="sidenav__item-img" src="imgs/foodtruck.jpg" alt="" />
+          <span class="sidenav__item-title"> AZ Food Truck Fridays </span>
+        </div>
+      </section>
+      <section class="feed">
+        <div class="stories">
+          <div class="stories__video-container">
+            <img
+              src="https://pbs.twimg.com/profile_images/1186829957378404352/FopuISp-_400x400.jpg"
+              alt=""
+              class="stories__bg"
+            />
+            <div class="stories__title">
+              <div class="stories__new-btn">
+                <i class="fas fa-plus"></i>
+              </div>
+              Create A Story
+            </div>
+          </div>
+
+          <div class="stories__video-container stories__video-container--plain">
+            <img
+              src="https://yt3.ggpht.com/ytc/AAUvwngCpYUyDTsz7AJ5dAigb2NYwYley49PLprX85pR=s900-c-k-c0x00ffffff-no-rj"
+              alt=""
+              class="stories__bg"
+            />
+            <div class="stories__title">
+              <img
+                class="stories__user"
+                src="https://randomuser.me/api/portraits/men/30.jpg"
+              />
+              Shawn Jones
+            </div>
+          </div>
+
+          <div class="stories__video-container stories__video-container--plain">
+            <img
+              src="https://i.pinimg.com/originals/4d/8d/d6/4d8dd6f91077bfb6ed9df9b00a5dcc5d.gif"
+              alt=""
+              class="stories__bg"
+            />
+            <div class="stories__title">
+              <img
+                class="stories__user"
+                src="https://static-cdn.jtvnw.net/jtv_user_pictures/d599f6b3-96ad-407f-91b9-153502de030d-profile_image-300x300.png"
+              />
+              CalebCity Youtube
+            </div>
+          </div>
+
+          <div class="stories__video-container stories__video-container--plain">
+            <img
+              src="http://straightfromthea.com/wp-content/uploads/2015/10/viral-video-maxi-pads.gif"
+              alt=""
+              class="stories__bg"
+            />
+            <div class="stories__title">
+              <img
+                class="stories__user"
+                src="https://randomuser.me/api/portraits/women/92.jpg"
+              />
+              Straight From A
+            </div>
+          </div>
+
+          <div class="stories__video-container stories__video-container--plain">
+            <img
+              src="https://media.tenor.com/images/b8ee7a5ecbc6088565ed89280730f294/tenor.gif"
+              alt=""
+              class="stories__bg"
+            />
+            <div class="stories__title">
+              <img
+                class="stories__user"
+                src="https://randomuser.me/api/portraits/women/35.jpg"
+              />
+              Hood TikToks
+            </div>
+          </div>
+
+          <div class="stories__video-container stories__video-container--plain">
+            <img
+              src="https://i1.sndcdn.com/avatars-Y3Yj03O6Kj1kzgio-Aibikw-t500x500.jpg"
+              alt=""
+              class="stories__bg"
+            />
+            <div class="stories__title">
+              <img
+                class="stories__user"
+                src="https://i1.sndcdn.com/artworks-Vv5bNV3aIzSC6zfT-yGnQ6Q-t500x500.jpg"
+              />
+              Saint Jodeci
+            </div>
+          </div>
+        </div>
+        <div class="feed__box submitpost">
+          <div class="newpost">
+            <img
+              class="newpost__user-img"
+              src="https://pbs.twimg.com/profile_images/1186829957378404352/FopuISp-_400x400.jpg"
+              alt=""
+            />
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder="What's on your mind?"
+            />
+          </div>
+          <div class="hline"></div>
+          <div class="post-types">
+            <div class="post-types__item">
+              <i class="fas fa-video"></i> <span class="post-types__title">Live Video</span>
+            </div>
+            <div class="post-types__item">
+              <i class="fas fa-photo-video"></i> <span class="post-types__title">Photo Video</span>
+            </div>
+            <div class="post-types__item">
+              <i class="fas fa-laugh-beam"></i> <span class="post-types__title">Feeling/Activity</span>
+            </div>
+          </div>
+        </div>
+        <!-- post 1 -->
+        <div class="feed__box photopost">
+          <div class="photopost__info">
+            <div class="photopost__left">
+              <img
+                src="https://pbs.twimg.com/profile_images/1186829957378404352/FopuISp-_400x400.jpg"
+                alt=""
+              />
+              <div class="photopost__details">
+                <span class="photopost__name">T Nicole</span>
+                <span class="photopost__date"
+                  >May 6 at 10:45pm<i class="fas fa-user-friends"></i
+                ></span>
+              </div>
+            </div>
+            <i class="fas fa-ellipsis-h"></i>
+          </div>
+          <div class="photopost__description">
+            Happy Mother's Day To The Best! Love You Mom! 💖
+          </div>
+          <div class="photopost__image">
+            <img src="imgs/img01.JPG" alt="" />
+          </div>
+          <div class="photopost__stats">
+            <div class="photopost__stats-emojis">
+              <div class="emoji-circle emoji-circle--blue">
+                <i class="fas fa-thumbs-up"></i>
+              </div>
+              <div class="emoji-circle emoji-circle--red">
+                <i class="fas fa-heart"></i>
+              </div>
+              <div class="emoji-circle emoji-circle--yellow">
+                <i class="fas fa-surprise"></i>
+              </div>
+              3.3k
+            </div>
+            <div class="photopost__stats-share">788 Comments 73 Shares</div>
+          </div>
+
+          <div class="hline"></div>
+
+          <div class="photopost__actions">
+            <a href="#" class="photopost__link">
+              <i class="fas fa-thumbs-up"></i> Like
+            </a>
+            <a href="#" class="photopost__link">
+              <i class="fas fa-comment"></i> Comment
+            </a>
+            <a href="#" class="photopost__link">
+              <i class="fas fa-share"></i> Share
+            </a>
+          </div>
+          <div class="hline"></div>
+        </div>
+        <!-- post 2 -->
+        <div class="feed__box photopost">
+          <div class="photopost__info">
+            <div class="photopost__left">
+              <img
+                src="https://pbs.twimg.com/profile_images/1186829957378404352/FopuISp-_400x400.jpg"
+                alt=""
+              />
+              <div class="photopost__details">
+                <span class="photopost__name">T Nicole</span>
+                <span class="photopost__date"
+                  >May 5 at 10:00am<i class="fas fa-user-friends"></i
+                ></span>
+              </div>
+            </div>
+            <i class="fas fa-ellipsis-h"></i>
+          </div>
+          <div class="photopost__description">Whose man is this? LOL 🤣</div>
+          <div class="photopost__image">
+            <img src="imgs/img03.png" alt="" />
+          </div>
+          <div class="photopost__stats">
+            <div class="photopost__stats-emojis">
+              <div class="emoji-circle emoji-circle--blue">
+                <i class="fas fa-thumbs-up"></i>
+              </div>
+              <div class="emoji-circle emoji-circle--red">
+                <i class="fas fa-heart"></i>
+              </div>
+              <div class="emoji-circle emoji-circle--yellow">
+                <i class="fas fa-surprise"></i>
+              </div>
+              3.8m
+            </div>
+            <div class="photopost__stats-share">1m Comments 50k Shares</div>
+          </div>
+
+          <div class="hline"></div>
+
+          <div class="photopost__actions">
+            <a href="#" class="photopost__link">
+              <i class="fas fa-thumbs-up"></i> Like
+            </a>
+            <a href="#" class="photopost__link">
+              <i class="fas fa-comment"></i> Comment
+            </a>
+            <a href="#" class="photopost__link">
+              <i class="fas fa-share"></i> Share
+            </a>
+          </div>
+          <div class="hline"></div>
+        </div>
+        <!-- post 3 -->
+        <div class="feed__box photopost">
+          <div class="photopost__info">
+            <div class="photopost__left">
+              <img
+                src="https://pbs.twimg.com/profile_images/1186829957378404352/FopuISp-_400x400.jpg"
+                alt=""
+              />
+              <div class="photopost__details">
+                <span class="photopost__name">T Nicole</span>
+                <span class="photopost__date"
+                  >May 5 at 10:00am<i class="fas fa-user-friends"></i
+                ></span>
+              </div>
+            </div>
+            <i class="fas fa-ellipsis-h"></i>
+          </div>
+          <div class="photopost__description">
+            Who else had a crush on Max? #throwback
+          </div>
+          <div class="photopost__image">
+            <img src="imgs/img04.jpeg" alt="" />
+          </div>
+          <div class="photopost__stats">
+            <div class="photopost__stats-emojis">
+              <div class="emoji-circle emoji-circle--blue">
+                <i class="fas fa-thumbs-up"></i>
+              </div>
+              <div class="emoji-circle emoji-circle--red">
+                <i class="fas fa-heart"></i>
+              </div>
+              <div class="emoji-circle emoji-circle--yellow">
+                <i class="fas fa-surprise"></i>
+              </div>
+              5
+            </div>
+            <div class="photopost__stats-share">25 Comments 5 Shares</div>
+          </div>
+
+          <div class="hline"></div>
+
+          <div class="photopost__actions">
+            <a href="#" class="photopost__link">
+              <i class="fas fa-thumbs-up"></i> Like
+            </a>
+            <a href="#" class="photopost__link">
+              <i class="fas fa-comment"></i> Comment
+            </a>
+            <a href="#" class="photopost__link">
+              <i class="fas fa-share"></i> Share
+            </a>
+          </div>
+          <div class="hline"></div>
+        </div>
+      </section>
+    </section>
+    <section class="floatingmsg">
+      <!-- Message 1 -->
+      <div class="floatingmsg__bubble">
+        <img src="https://pbs.twimg.com/profile_images/638110116/image_400x400.jpg" alt="" />
+        <div class="floatingmsg__notification">1</div>
+      </div>
+      <!-- Message 2 -->
+      <div class="floatingmsg__bubble">
+        <img src="imgs/profile.png" alt="" />
+      </div>
+      <!-- Message 3 -->
+      <div class="floatingmsg__bubble">
+        <img src="imgs/img05.jpg" alt="" />
+        <div class="floatingmsg__notification">3</div>
+      </div>
+      <!-- Message 4 -->
+      <div class="floatingmsg__bubble">
+        <img src="https://scontent.fphx1-1.fna.fbcdn.net/v/t1.6435-9/170154988_10226186767642167_6804262678686494812_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=cqZIn2KuYEcAX90WTYP&_nc_ht=scontent.fphx1-1.fna&oh=b5ff5a27ca6224c19f0c05e91532401c&oe=60BC3293" alt="" />
+        <div class="floatingmsg__notification">34</div>
+      </div>
+      <!-- Message 5 -->
+      <div class="floatingmsg__bubble">
+        <img src="https://scontent.fphx1-1.fna.fbcdn.net/v/t1.6435-9/115929038_2789065991317376_7109356890462344960_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=973b4a&_nc_ohc=4Mr93TDl0TMAX_WfAEG&_nc_ht=scontent.fphx1-1.fna&oh=2b41571820e5a3e50f99bb6417852297&oe=60BA80F1" alt="" />
+      </div>
+      <!-- Edit -->
+      <div class="floatingmsg__bubble">
+        <i class="fas fa-edit"></i>
+      </div>
+    </section>
+  </body>
+</html>
