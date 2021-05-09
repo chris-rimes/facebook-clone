@@ -735,5 +735,8 @@ post-types__item .fab {
   .header__logo-section .header__logo-search input {
     width: 100%;
     overflow: hidden;
+    margin-right: 5px;
   }
+  
+
 }
